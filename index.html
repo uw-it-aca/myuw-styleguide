@@ -12,17 +12,202 @@
 </head>
 <body>
 
+<nav class="ph4">
+	<div class="dt w-100 border-box pt3 pb3">
+		<a class="dtc v-mid mid-gray link dim w-25" href="#" title="Home">
+			<span>MyUW</span>
+		</a>
+		<div class="dtc v-mid w-75 tr">
+			<a href="#" onclick="toggleNavigation()"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+		</div>
+	</div>
+	<ul id="nav-links" class="list lh-copy dn pt1 pb4">
+		<li class="mb3"><a href="#" class="link dim black-90" onclick="showSection('getting-started', 'Getting Started')">Getting Started</a></li>
+		<li class="mb3">
+			<span class="b">Style</span>
+			<ul class="list">
+				<li><a href="#" class="link dim black-90" onclick="showSection('colors', 'Colors')">Colors</a></li>
+				<li><a href="#" class="link dim black-90" onclick="showSection('icons', 'Icons')">Icons</a></li>
+				<li><a href="#" class="link dim black-90" onclick="showSection('typography', 'Typography')">Typography</a></li>
+			</ul>
+		</li>
+		<li>
+			<span class="b">Components</span>
+			<ul class="list">
+				<li><a href="#" class="link dim black-90" onclick="showSection('buttons', 'Buttons')">Buttons</a></li>
+				<li><a href="#" class="link dim black-90" onclick="showSection('cards', 'Cards')">Cards</a></li>
+				<li><a href="#" class="link dim black-90" onclick="showSection('dividers', 'Dividers')">Dividers</a></li>
+				<li><a href="#" class="link dim black-90" onclick="showSection('expansion-panels', 'Expansion Panels')">Expansion panels</a></li>
+				<li><a href="#" class="link dim black-90" onclick="showSection('lists', 'Lists')">Lists</a></li>
+				<li><a href="#" class="link dim black-90" onclick="showSection('segmented-controls', 'Segmented Controls')">Segmented controls</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+
+<header class="ph4 bg-uw-purple">
+	<div class="dtc v-mid pt4 pb4">
+		<h1 id="section-title" class="f1 white">Getting Started</h1>
+	</div>
+</header>
+
+<div class="ph4">
+	<section id="getting-started" class="db">
+		<h2 class="f2">MyUW Design Style Guide</h2>
+		<p class="lh-copy measure">The goal of the pattern library is to be the definite design resource for anyone (designer/developer/project manager) working on a MyUW feature.</p>
+		<p class="lh-copy measure">Inspired by the <a href="https://material.google.com/">Material Design guidelines</a>.</p>
+		<a href="https://github.com/uw-it-aca/myuw-styleguide" class="f6 link dim br2 ba ph3 pv2 mb2 dib black">View the project on GitHub</a>
+	</section>
+
+	<section id="colors" class="dn">
+		<h2 class="f2">Course Palette</h2>
+		<div class="fl w-25 ph2">
+			<p class="measure">c1<br>#2E6884</p>
+			<div class="w-100 pa4 myuw-c1">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c1a<br>#36799A</p>
+			<div class="w-100 pa4 myuw-c1a">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c2<br>#844B2E</p>
+			<div class="w-100 pa4 myuw-c2">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c2a<br>#9A5736</p>
+			<div class="w-100 pa4 myuw-c2a">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c3<br>#14511E</p>
+			<div class="w-100 pa4 myuw-c3">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c3a<br>#218431</p>
+			<div class="w-100 pa4 myuw-c3a">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c4<br>#218431</p>
+			<div class="w-100 pa4 myuw-c4">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c4a<br>#218431</p>
+			<div class="w-100 pa4 myuw-c4a">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c5<br>#218431</p>
+			<div class="w-100 pa4 myuw-c5">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c5a<br>#218431</p>
+			<div class="w-100 pa4 myuw-c5a">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c6<br>#218431</p>
+			<div class="w-100 pa4 myuw-c6">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c6a<br>#218431</p>
+			<div class="w-100 pa4 myuw-c6a">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c7<br>#218431</p>
+			<div class="w-100 pa4 myuw-c7">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c7a<br>#218431</p>
+			<div class="w-100 pa4 myuw-c7a">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c8<br>#218431</p>
+			<div class="w-100 pa4 myuw-c8">
+			</div>
+		</div>
+		<div class="fl w-25 ph2">
+			<p class="measure">c8a<br>#218431</p>
+			<div class="w-100 pa4 myuw-c8a">
+			</div>
+		</div>
+	</section>
+
+	<section id="icons" class="dn">
+		<h2 class="f2">Icons</h2>
+	</section>
+
+	<section id="typography" class="dn">
+		<a id="styles"><h2 class="f2">Styles</h2></a>
+		<span class="myuw-f1">Heading Level One</span>
+		<span class="myuw-f2">Heading Level Two</span>
+		<span class="myuw-f3">Heading Level Three</span>
+		<span class="myuw-f4">Heading Level Four</span>
+		<span class="myuw-f5">Heading Level Five</span>
+		<span class="myuw-f6">Heading Level Six</span>
+		<p class="myuw-p measure">Aenean aliquam sem tellus, id placerat magna cursus ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent viverra arcu orci, eu venenatis velit hendrerit a. Ut porta erat mi, ac aliquam mi cursus at.</p>
+	</section>
+
+	<section id="buttons" class="dn">
+		<h2 class="f2">Buttons</h2>
+	</section>
+
+	<section id="cards" class="dn">
+		<a id="card-types"><h2 class="f2">Card Types</h2></a>
+		<h3 class="f3">Plain Cards</h3>
+		<img src="images/components/cards/card_plain.png" class="mw-100" alt="A plain card">
+		<p class="i mb4">A plain card</p>
+		<h3 class="f3">Expandable Cards</h3>
+		<img src="images/components/cards/card_collapsed.png" class="mw-100" alt="A collapsed card">
+		<p class="i mb4">A collapsed card</p>
+		<img src="images/components/cards/card_expanded_1.png" class="mw-100" alt="An expanded card - Version 1">
+		<p class="i mb4">An expanded card - Version one</p>
+		<img src="images/components/cards/card_expanded_2.png" class="mw-100" alt="An expanded card - Version 2">
+		<p class="i mb4">An expanded card - Version two</p>
+		<h3 class="f3">Referential Cards</h3>
+	</section>
+
+	<section id="dividers" class="dn">
+		<h2 class="f2">Dividers</h2>
+	</section>
+
+	<section id="expansion-panels" class="dn">
+		<h2 class="f2">Expansion Panels</h2>
+	</section>
+
+	<section id="lists" class="dn">
+		<h2 class="f2">Lists</h2>
+	</section>
+
+	<section id="segmented-controls" class="dn">
+		<h2 class="f2">Segmented Controls</h2>
+	</section>
+</div>
+
+<!--
 <div class="mw-100 cf">
 	<nav class="dt w-100 border-box pa3 ph5-ns">
-	<a class="dtc v-mid mid-gray link dim w-25" href="#" title="Home">
-	  <img src="/img/logo.jpg" class="dib w2 h2 br-100" alt="Site Name">
+	<a class="dtc v-mid mid-gray link dim w-25" href="#">
+
 	</a>
 	<div class="dtc v-mid w-75 tr">
-		<i class="fa fa-bars" aria-hidden="true"></i>
+		<i class="fa fa-chevron-down" aria-hidden="true"></i>
 	</div>
 	</nav>
+-->
 
-	<div id="sidebar" class="fl w-10 pt4 ph2 br b--light-silver">
+	<!--
+	<div id="sidebar" class="fl w-10 pt4 ph2 br b--light-silver dn-m">
 		<nav>
 			<ul class="list lh-copy mt0">
 				<li class="mb4"><span class="f2"><a href="https://my.uw.edu/" class="link black">MyUW</a></span></li>
@@ -49,160 +234,29 @@
 			</ul>
 		</nav>
 	</div>
+	-->
 
-	<div class="fl w-90 offset-sidebar">
+	<!--
+
+	<div class="fl w-90-m offset-sidebar">
 		<header class="ph5 bg-uw-purple">
 			<div class="dtc v-mid pt4 pb4">
 				<h1 id="section-title" class="f1 white">Getting Started</h1>
 			</div>
 		</header>
+-->
 
-		<div class="ph5 pt4 pb4">
-			<section id="getting-started" class="db">
-				<h2 class="f2">MyUW Design Style Guide</h2>
-				<p class="lh-copy measure">The goal of the pattern library is to be the definite design resource for anyone (designer/developer/project manager) working on a MyUW feature.</p>
-				<p class="lh-copy measure">Inspired by the <a href="https://material.google.com/">Material Design guidelines</a>.</p>
-				<a href="https://github.com/uw-it-aca/myuw-styleguide" class="f6 link dim br2 ba ph3 pv2 mb2 dib black" href="#0">View the project on GitHub</a>
-			</section>
 
-			<section id="colors" class="dn">
-				<h2 class="f2">Course Palette</h2>
-				<div class="fl w-25 ph2">
-					<p class="measure">c1<br>#2E6884</p>
-					<div class="w-100 pa4 myuw-c1">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c1a<br>#36799A</p>
-					<div class="w-100 pa4 myuw-c1a">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c2<br>#844B2E</p>
-					<div class="w-100 pa4 myuw-c2">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c2a<br>#9A5736</p>
-					<div class="w-100 pa4 myuw-c2a">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c3<br>#14511E</p>
-					<div class="w-100 pa4 myuw-c3">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c3a<br>#218431</p>
-					<div class="w-100 pa4 myuw-c3a">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c4<br>#218431</p>
-					<div class="w-100 pa4 myuw-c4">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c4a<br>#218431</p>
-					<div class="w-100 pa4 myuw-c4a">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c5<br>#218431</p>
-					<div class="w-100 pa4 myuw-c5">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c5a<br>#218431</p>
-					<div class="w-100 pa4 myuw-c5a">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c6<br>#218431</p>
-					<div class="w-100 pa4 myuw-c6">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c6a<br>#218431</p>
-					<div class="w-100 pa4 myuw-c6a">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c7<br>#218431</p>
-					<div class="w-100 pa4 myuw-c7">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c7a<br>#218431</p>
-					<div class="w-100 pa4 myuw-c7a">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c8<br>#218431</p>
-					<div class="w-100 pa4 myuw-c8">
-					</div>
-				</div>
-				<div class="fl w-25 ph2">
-					<p class="measure">c8a<br>#218431</p>
-					<div class="w-100 pa4 myuw-c8a">
-					</div>
-				</div>
-			</section>
-
-			<section id="icons" class="dn">
-				<h2 class="f2">Icons</h2>
-			</section>
-
-			<section id="typography" class="dn">
-				<a id="styles"><h2 class="f2">Styles</h2></a>
-				<span class="myuw-f1">Heading Level One</span>
-				<span class="myuw-f2">Heading Level Two</span>
-				<span class="myuw-f3">Heading Level Three</span>
-				<span class="myuw-f4">Heading Level Four</span>
-				<span class="myuw-f5">Heading Level Five</span>
-				<span class="myuw-f6">Heading Level Six</span>
-				<p class="myuw-p measure">Aenean aliquam sem tellus, id placerat magna cursus ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent viverra arcu orci, eu venenatis velit hendrerit a. Ut porta erat mi, ac aliquam mi cursus at.</p>
-			</section>
-
-			<section id="buttons" class="dn">
-				<h2 class="f2">Buttons</h2>
-			</section>
-
-			<section id="cards" class="dn">
-				<a id="card-types"><h2 class="f2">Card Types</h2></a>
-				<h3 class="f3">Plain Cards</h3>
-				<img src="images/components/cards/card_plain.png" class="mw-100" alt="A plain card">
-				<p class="i mb4">A plain card</p>
-				<h3 class="f3">Expandable Cards</h3>
-				<img src="images/components/cards/card_collapsed.png" class="mw-100" alt="A collapsed card">
-				<p class="i mb4">A collapsed card</p>
-				<img src="images/components/cards/card_expanded_1.png" class="mw-100" alt="An expanded card - Version 1">
-				<p class="i mb4">An expanded card - Version one</p>
-				<img src="images/components/cards/card_expanded_2.png" class="mw-100" alt="An expanded card - Version 2">
-				<p class="i mb4">An expanded card - Version two</p>
-				<h3 class="f3">Referential Cards</h3>
-			</section>
-
-			<section id="dividers" class="dn">
-				<h2 class="f2">Dividers</h2>
-			</section>
-
-			<section id="expansion-panels" class="dn">
-				<h2 class="f2">Expansion Panels</h2>
-			</section>
-
-			<section id="lists" class="dn">
-				<h2 class="f2">Lists</h2>
-			</section>
-
-			<section id="segmented-controls" class="dn">
-				<h2 class="f2">Segmented Controls</h2>
-			</section>
-		</div>
+		<!--
 	</div>
 </div>
+-->
 
 <script>
+	function toggleNavigation() {
+		document.querySelector("#nav-links").classList.toggle("dn");
+	}
+
 	function showSection(sectionId, title) {
 		var visibleSections = document.querySelectorAll(".db");
 		for (var i = 0; i < visibleSections.length; i++) {
@@ -215,6 +269,7 @@
 		var section = document.querySelector("#" + sectionId);
 		section.classList.remove("dn");
 		section.classList.add("db");
+		toggleNavigation();
 	}
 </script>
 </body>
