@@ -14,9 +14,9 @@
 
 <nav class="ph4">
 	<div class="dt w-100 border-box pt3 pb3">
-		<a class="dtc v-mid mid-gray link dim w-25" href="#" title="Home">
-			<span>MyUW</span>
-		</a>
+		<span>
+			<a href="#" class="dtc v-mid mid-gray link dim" onclick="showSection('getting-started', 'Getting Started')">Fremont</a>
+		</span>
 		<div class="dtc v-mid w-75 tr">
 			<a href="#" onclick="toggleNavigation()"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 		</div>
@@ -269,7 +269,7 @@
 		var section = document.querySelector("#" + sectionId);
 		section.classList.remove("dn");
 		section.classList.add("db");
-		toggleNavigation();
+		document.querySelector("#nav-links").classList.add("dn");
 	}
 </script>
 </body>
