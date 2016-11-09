@@ -2,23 +2,17 @@
   background-color: #4b2e83;
 }
 
-#sidebar {
-  background-color: white;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
+// @custom-media --breakpoint-not-small screen and (min-width: 30em);
+
+@media (min-width: 30em) and (max-width: 60em) {
 }
 
-.offset-sidebar {
-  margin-left: 10%;
-}
+@media (min-width: 60em) {
+  nav {
+    height: 100%;
+  }
 
-header {
-  background-color: cyan;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
+  main {
+    margin-left: 16rem; // w5
+  }
 }
