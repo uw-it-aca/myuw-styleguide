@@ -2,6 +2,10 @@
   background-color: #4b2e83;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
 // @custom-media --breakpoint-not-small screen and (min-width: 30em);
 
 @media (min-width: 30em) and (max-width: 60em) {
