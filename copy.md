@@ -24,7 +24,8 @@ Cards are used frequently on MyUW. Every card can be broken down into the follow
  1. A base card
     * Plain card
     * Expandable cards (two versions)
- 2. Components that go inside of the base card
+ 2. Card specific components
+ 3. General components
 
 ## Dividers
 ## Expansion Panels
