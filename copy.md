@@ -9,11 +9,7 @@ Inspired by the Material Design guidelines.
 ## Colors
 MyUW's primary color palette consists out of UW purple and gold.
 
-On top of this, there is a secondary color palette that is used when the primary color palette is not diverse enough (for example, it is used for the course cards).
-
-
-
-
+On top of this, there is a secondary color palette that is used when the primary color palette is not diverse enough. This secondary color palette is, for example, used to give a student's course cards unique colors.
 
 ## Icons
 ## Typography
