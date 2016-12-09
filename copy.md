@@ -15,7 +15,7 @@ On top of this, there is a secondary color palette that is used when the primary
 The majority of MyUW's icons come from the [FontAwesome icon set](http://fontawesome.io/). 
 
 ## Typography
-MyUW follows UW's branding and makes use of two typefaces: [Encode Sans](https://www.washington.edu/brand/graphic-elements/font-download/) and [Open Sans](https://fonts.google.com/specimen/Open+Sans).
+MyUW follows UW's branding and makes use of two typefaces: [Encode Sans](https://www.washington.edu/brand/files/2014/09/Encode-Sans.zip) and [Open Sans](https://fonts.google.com/specimen/Open+Sans).
 
 # Components
 ## Buttons
