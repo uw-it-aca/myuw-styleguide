@@ -22,8 +22,8 @@ MyUW follows UW's branding and makes use of two typefaces: [Encode Sans](https:/
 ## Cards
 Cards are used frequently on MyUW. Every card can be broken down into the following items:
  1. A base card. There are three types of base cards:
-   * Plain card
-   * Expandable cards (two versions)
+    * Plain card
+    * Expandable cards (two versions)
  2. Components that go inside of the base card.
 
 ## Dividers
