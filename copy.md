@@ -12,6 +12,9 @@ MyUW's primary color palette consists out of UW purple and gold.
 On top of this, there is a secondary color palette that is used when the primary color palette is not diverse enough. This secondary color palette can, for example, be used to create unique course cards for all of a student's courses.
 
 ## Icons
+The majority of MyUW's icons come from the [FontAwesome icon set](http://fontawesome.io/). 
+
+
 ## Typography
 
 # Components
